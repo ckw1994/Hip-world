@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color: red;
+}
+h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 23px;
+}
+
+p{
+    margin-bottom: 1em;
+}
+#main-hader{
+    width: 1000px;
+    /* background-color: gray; */
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+
+
+#main-hader .gnb{
+    margin-top: 17px;
+}
+#main-hader .gnb ul li{
+    display: inline-block;
+}
+#main-hader .gnb ul li span{
+     margin-left: 22px;
+     margin-right: 22px;
+     color: #999;
+}
+
+#contents{
+    width: 1000px;
+    height: auto;
+    /* background-color: #666; */
+    margin: 0 auto;
+}
+#main-footer{
+    width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 19px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+    /* background-color: #ccc; */
+}
+
+/* about 서브페이지 */
+
+
+/*  about 전용 스타일 */
+#about #contents > article{
+    width: 100%;
+    overflow: hidden;
+}
+#contents > article > img{
+    float: left;
+    width: 500px;
+
+}
+#contents > article > .text{
+     float: right;
+    width: 450px;
+
+}
+
+/* about 전용 스타일 */
+#about #contents > article {
+    width: 100%;
+    overflow: hidden;
+  }
+  #about #contents > article > img {
+    float: left;
+    width: 500px;
+  }
+  #about #contents > article > .text {
+    float: right;
+    width: 450px;
+  }
+  
+  /* activity 페이지 */
+ 
+ 
+  #activity #contents .info-ui {
+    background: #f4f4f4;
+    width: 320px;
+    height: 428px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #activity #contents .info-ui .info p{
+      margin-bottom: 6px;
+  }
+  #activity #contents .info-ui .info-ui .tag{
+      margin-bottom: 0px;
+  }
+  #activity #contents .info-ui .info{
+      padding: 20px;
+  }    
+  #activity #contents .info-ui .info .title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  #activity #contents .info-ui .info .date {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  #activity #contents .info-ui .info .tag {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+  }
+  #activity #contents .info-ui > img {
+    display: block;
+  }
+  #activity #contents article{
+      display: inline-block;
+    
+  }
+ 
+  #activity #contents article:nth-child(2){
+      margin-right: 15px;
+  }
+  #activity #contents article:nth-child(3){
+    margin-right: 15px;
+}
+  
